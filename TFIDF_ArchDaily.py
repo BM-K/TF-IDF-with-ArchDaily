@@ -2,8 +2,7 @@ import csv
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-def get_recommendations(title, cosine_sim):
-    
+def get_TFIDF_Result(title, cosine_sim):
     while True:
         try:
             idx = indices[title]
@@ -14,19 +13,12 @@ def get_recommendations(title, cosine_sim):
             return
     idx = indices[title]
     idx = int(idx)
-
-
     sim_scores = list(enumerate(cosine_sim[idx]))
-
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
-
-
     sim_scores = sim_scores[1:21]
-
-
-    movie_indices = [i[0] for i in sim_scores]
+    data_indices = [i[0] for i in sim_scores]
     num=1
-    for i in movie_indices:
+    for i in data_indices:
         print(num,":",data_Name[i])
         num+=1
     print("------------------------------------------------------")
@@ -88,7 +80,7 @@ while(1):
     a = int(input("input number: "))
     if a == 1:
         data_input = input("data input :")
-        get_recommendations(data_input, cosine_sim)
+        get_TFIDF_Result(data_input, cosine_sim)
     elif a == 2:
         word = input("word input : ")
         sentence = []
