@@ -20,7 +20,7 @@ def get_TFIDF_Result(title, cosine_sim):
     num=1
     for i in data_indices:
         print(num,":",data_Name[i])
-        num+=1
+        num += 1
     print("------------------------------------------------------")
 
 
