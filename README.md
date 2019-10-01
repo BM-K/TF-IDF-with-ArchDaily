@@ -7,7 +7,7 @@ Recently I read about TF-IDF similarity measure.
 So I want to use it in real life, I applied "https://www.archdaily.com/" web page. The program finds other titles name similar to the title as user typing. Also, if there is a word user want to find, search an art piecec that contains that word. 
 
 ## Requirement
-- BeautofulSoup
+- Beautifulsoup
 - pandas
 - sklearn
 
