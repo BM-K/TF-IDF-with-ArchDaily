@@ -36,7 +36,4 @@ Part of the code. <br>
 1. Search similar page <br>
 <img src = https://user-images.githubusercontent.com/55969260/65873637-8f5c6800-e3be-11e9-8beb-cc4b17c1b453.png> <br>
 2. Search word <br>
-<img src = https://user-images.githubusercontent.com/55969260/65873654-9a16fd00-e3be-11e9-892b-feabbc05baef.png> <br>
-
-## Disadvantages
-The code only works for pre-assembled data. so new data that arch daily make can not use. 
+<img src = https://user-images.githubusercontent.com/55969260/65873654-9a16fd00-e3be-11e9-892b-feabbc05baef.png> <br> 
